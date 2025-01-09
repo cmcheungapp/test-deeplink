@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      /**
+       * https://app.moov-music.com/.well-known/apple-app-site-association
+       * https://app.moov-music.com/link
+       * https://app.moov-music.com/link?d=1
+       */
+
+      // Check if the app is installed
+      window.onload = function () {
+        var appURL = "pccwmoov://appshare/path/to/content"; // Replace with your app's URL scheme
+        var appStoreURL =
+          "https://apps.apple.com/hk/app/moov-%E9%9F%B3%E6%A8%82/id436310157"; // Replace with your App Store URL
+
+        // Attempt to open the app
+        window.location = appURL;
+
+        // Set a timeout to redirect to the App Store after a delay
+        setTimeout(function () {
+          window.location = appStoreURL;
+        }, 2500); // Adjust the delay as needed
+      };
+    </script>
+  </head>
+  <body>
+    <p>
+      If you are not redirected automatically,
+      <a
+        href="https://apps.apple.com/hk/app/moov-%E9%9F%B3%E6%A8%82/id436310157"
+        >click here</a
+      >.
+    </p>
+  </body>
+</html>
