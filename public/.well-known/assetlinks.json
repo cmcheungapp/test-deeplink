@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.now.moov",
+      "sha256_cert_fingerprints": [
+        "6E:7F:5B:EE:4F:A2:A2:F3:AE:F0:70:C6:C7:D9:E8:52:FF:82:64:33:3A:A3:EF:56:FE:1E:52:C3:A8:80:B8:DB"
+      ]
+    }
+  }
+]
