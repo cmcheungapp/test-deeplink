@@ -3,7 +3,10 @@
     "apps": [],
     "details": [
       {
-        "appID": "GJKS2XZ3GZ.com.moov.togo",
+        "appIDs": [
+          "GJKS2XZ3GZ.com.moov.togo",
+          "GJKS2XZ3GZ.com.moov.togo.uat"
+        ],
         "paths": [
           "NOT /__/auth/action/",
           "NOT /__/auth/handler/",
